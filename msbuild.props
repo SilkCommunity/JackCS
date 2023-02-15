@@ -1,0 +1,7 @@
+
+<Project>
+    <ItemGroup>
+		<PackageReference Include="Silk.NET.Core" Version="2.16.0" />
+		<PackageReference Include="Silk.NET.SilkTouch" Version="2.16.0"  OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+	</ItemGroup>
+</Project>

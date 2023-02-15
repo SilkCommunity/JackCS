@@ -1,0 +1,77 @@
+{
+  "tasks": [
+    {
+      "profileName": "jack",
+      "sources": [
+        "jack2/common/jack/jack.h",
+        "jack2/common/jack/types.h",
+        "jack2/common/jack/transport.h",
+        "jack2/common/jack/systemdeps.h",
+      ],
+      "mode": "Clang",
+      "cacheDir": "/build/cache",
+      "cacheKey": "jack",
+      "controlDescriptors": [
+        "no-obsolete-enum",
+        "typemap-native"
+      ],
+      "converter": {},
+      "clang": {
+        "args": [
+          "--language=c++",
+          "--std=c++17",
+          "-fblocks",
+          "-m32",
+          "-Wno-expansion-to-defined",
+          "-Wno-ignored-attributes",
+          "-Wno-ignored-pragma-intrinsic",
+          "-Wno-nonportable-include-path",
+          "-Wno-pragma-pack",
+          "-I$windowsSdkIncludes",
+          "-Ijack2/common"
+        ],
+        "traverse": [
+          "jack2/common/jack/*.h"
+        ],
+        "classes": {
+          "jack.h": "[Core]Jack",
+          "types.h": "[Core]Jack",
+          "transport.h": "[Core]Jack",
+          "systemdeps.h": "[Core]Jack",
+        }
+      },
+      "exclude": [],
+      "rename": {},
+      "bakery": {
+        "profileNames": [
+          "jack"
+        ]
+      },
+      "output": {
+        "path": "Silk.NET.Community.Jack",
+        "licenseFile": "license_header.txt",
+        "props": "msbuild.props"
+      },
+      "prefix": "jack_",
+      "namespace": "Silk.NET.Community.Jack",
+      "extensionsNamespace": "Silk.NET.Community.Jack.Extensions",
+      "nameContainer": {
+        "linux-x64": "libjack.so",
+        "win-x64": "libjack.dll",
+        "win-x86": "libjack.dll",
+        "osx-x64": "libjack.dylib",
+        "android": "libjack.so",
+        "iOS": "libjack.dylib",
+        "className": "JackLibraryNameContainer"
+      },
+      "typeMaps": [
+        {
+
+        },
+        {
+          "$include.commonTypeMap": "csharp_typemap.json"
+        }
+      ]
+    }
+  ]
+}
