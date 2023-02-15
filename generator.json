@@ -48,13 +48,13 @@
         ]
       },
       "output": {
-        "path": "Silk.NET.Community.Jack",
+        "path": "JackCS",
         "licenseFile": "license_header.txt",
         "props": "msbuild.props"
       },
       "prefix": "jack_",
-      "namespace": "Silk.NET.Community.Jack",
-      "extensionsNamespace": "Silk.NET.Community.Jack.Extensions",
+      "namespace": "JackCS",
+      "extensionsNamespace": "JackCS.Extensions",
       "nameContainer": {
         "linux-x64": "libjack.so",
         "win-x64": "libjack.dll",
