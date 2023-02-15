@@ -1,0 +1,7 @@
+[*]
+silk_touch_vtable_generate = true
+silk_touch_vtable_tree_emit_assert = true
+silk_touch_sealed_vtable_creation = true
+silk_touch_vtable_preload = false
+silk_touch_telemetry = false
+silk_touch_compact_file_format = true
