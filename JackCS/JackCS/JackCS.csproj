@@ -4,6 +4,13 @@
     <TargetFrameworks>net6.0</TargetFrameworks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>preview</LangVersion>
+    <Version>1.0.0</Version>
+    <Authors>Beyley</Authors>
+    <PackageLicenseUrl>https://github.com/SilkCommunity/JackCS/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/SilkCommunity/JackCS</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>C# audio Jack sound dotnet Windows MacOS Linux Wrapper Native Bindings .NET</PackageTags>
+    <Title>JackCS</Title>
   </PropertyGroup>
 
   <ItemGroup>
